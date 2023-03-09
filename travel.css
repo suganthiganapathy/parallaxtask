@@ -1,0 +1,85 @@
+body, html
+{
+    height:100%;
+    font-size:16px;
+    margin: 0;
+    font-family: verdana, sans-serif;
+    font-weight:400px;
+    line-height:1.8em;
+    color:black;
+
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    width:80px;
+    position:relative;
+    opacity: 0.70;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image:url('images/tanjoor.jpg');
+    min-height: 100%;
+    width:100%
+ 
+}  
+.pimg2{
+    background-image: url('images/kanchipuram.jpg');
+    min-height: 400px;
+    width:100%;
+}
+.pimg3{
+    background-image: url('images/mahapalipuram.jpg');
+    min-height: 400px;
+    width:100%;
+}
+.pimg4{
+    background-image: url('images/kaniyakumari.jpg');
+    min-height: 400px;
+    width:100%
+}
+
+.section{
+    text-align:center;
+    padding:50px 80px;
+
+}
+
+.section-light{
+    background-color: white;
+    color:black;
+}
+.section-dark{
+    background-color: black;
+    color:rgb(204, 179, 179);
+}
+.ptext{
+    position: absolute;
+    top: 100px;
+    width:100%;
+    text-align: center;
+    color:#000;
+    font-size: 17px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color:white;
+    color:black;
+    padding:20px;
+}
+p{
+    margin:20px;
+}
+p:hover{
+    background-color: aquamarine;
+    color:darkolivegreen;
+
+}
+.booking{
+    text-align:center;
+    
+}
